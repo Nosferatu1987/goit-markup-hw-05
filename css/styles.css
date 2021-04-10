@@ -38,6 +38,7 @@
   --bg-color-team: #F5F4FA;
   --grid-item: 1;
   --icon-color-gray: #AFB1B8;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* font-family: 'Roboto', sans-serif; */
 
@@ -665,6 +666,10 @@ overflow: hidden;
   /* opacity: 50%; */
 }
 
+.bg-port-flip {
+  
+}
+
 .list-portfolio-p {
   /* display: inline-block;
   content: ''; */
@@ -675,10 +680,6 @@ overflow: hidden;
   height: 100%;
   transform: translatey(100%);
   transition: transform 250ms ease;
-  padding-top: 63px;
-  padding-bottom: 63px;
-  padding-left: 24px;
-  padding-right: 24px;
 /* width: 370px; */
 /* height: 294px; */
 /* left: 215px; */
@@ -693,6 +694,10 @@ line-height: 1.55;
 /* or 156% */
 letter-spacing: 0.03em;
 color: var(--main-text-color-white);
+padding-top: 63px;
+  padding-bottom: 63px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .list-item-portfolio:hover,
