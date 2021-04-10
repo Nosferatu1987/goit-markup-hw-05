@@ -647,7 +647,7 @@ margin-right: 93px;
 }
 
 
-.list-item-portfolio{
+.overlay-port{
   position: relative;
   overflow: hidden;
 }
@@ -655,7 +655,7 @@ margin-right: 93px;
 .list-item-portfolio .link:hover .overlay-port .list-portfolio-p {
   transform: translateY(0);
   /* width: 370px; */
-height: 294px;
+/* height: 294px; */
 overflow: hidden;
 /* opacity: 1; */
 }
@@ -665,7 +665,7 @@ overflow: hidden;
   /* opacity: 50%; */
 }
 
-.overlay-port .list-portfolio-p {
+.list-portfolio-p {
   /* display: inline-block;
   content: ''; */
   position: absolute;
