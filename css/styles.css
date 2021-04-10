@@ -679,7 +679,7 @@ overflow: hidden;
   width: 100%;
   height: 100%;
   transform: translatey(100%);
-  transition: transform 250ms ease;
+  transition: transform 250ms var(--timing-function: cubic-bezier(0.4, 0, 0.2, 1););
 /* width: 370px; */
 /* height: 294px; */
 /* left: 215px; */
