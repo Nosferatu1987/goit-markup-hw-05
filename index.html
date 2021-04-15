@@ -67,7 +67,7 @@
         <div class="container ">
             <!-- <img src="./images/index/bg-header-Img.png" alt=""> -->
             <h1 class="h1-style">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-            <button class="button button-index">Заказать услугу</button>
+            <button class="button button-index" data-modal-open>Заказать услугу</button>
         </div>
         </section>
         <section class="section"> <!--Создаёт отдельную секцию (блок) из элементов внутри него-->
@@ -385,6 +385,19 @@
         </div>
 
     </footer>
+
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <!-- <p>dfresggeg</p> -->
+            <button class="modal-bottom" data-modal-close>
+                <svg class="icon">
+                    <use href="./images/icons/header-icons.svg#icon-x-close-black-18dp"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
