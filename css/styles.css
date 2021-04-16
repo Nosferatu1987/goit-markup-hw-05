@@ -579,12 +579,23 @@ width: 370px;
 }
 
 /* Выделение цветом иконок соцсетей футера. Ховер и фокус задается всегда на ссылку! */
-.container .list .social-icons-item .social-icons-link:hover .icon,
-.container .list .social-icons-item .social-icons-link:focus .icon,
+/* .container .list .social-icons-item .social-icons-link:hover .icon,
+.container .list .social-icons-item .social-icons-link:focus .icon, */
 .container .list .social-icons-item .social-icons-link:hover,
 .container .list .social-icons-item .social-icons-link:focus {
-  fill: var(--main-text-color-white);
+  /* fill: var(--main-text-color-white); */
   background-color: var(--main-text-color-blue);
+
+  /* border-radius: 10px; */
+  /* margin: 10px; */
+  /* fill: inherit; */
+}
+
+/* Выделение цветом иконок соцсетей футера. Ховер и фокус задается всегда на ссылку! */
+.container .list .social-icons-item .social-icons-link:hover .icon,
+.container .list .social-icons-item .social-icons-link:focus .icon{
+  fill: var(--main-text-color-white);
+  
 
   /* border-radius: 10px; */
   /* margin: 10px; */
